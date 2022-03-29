@@ -1,6 +1,10 @@
 body {
     margin: 0;
 }
+
+/*
+CSS Menù laterale
+*/
 ul {
     list-style-type: none;
     margin: 0;
@@ -25,6 +29,10 @@ li a:hover:not(.active) {
     background-color: #555;
     color: white;
 }
+
+/*
+Css Form Contatti
+*/
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -55,11 +63,20 @@ input[type=submit]:hover {
     width: 25%;
     text-align: center;
 }
+
+/*
+Css calendario
+*/
 iframe{
     border: 0;
     width:800px;
     height:600px;
 }
+
+/*
+ Slideshow css 
+*/
+
 .mySlides {
     display: none;
     color: black;
@@ -150,6 +167,10 @@ img {
        font-size: 11px
    }
 }
+
+/* 
+Css container principale 
+*/
 .container{
     margin-left:25%;
     padding:1px 16px;
