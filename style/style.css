@@ -199,9 +199,12 @@ CSS avatar
 }
 table {
   width: 100%;
+  text-align: justify;
 }
-.avatar td {
+.avatartable td {
   height: 150px;
+  position: relative;
+  left: 13%;
 }
 .title {
   color: #ed1d24;
