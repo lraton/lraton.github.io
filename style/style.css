@@ -32,15 +32,15 @@ ul.topnav {
     text-align: center;
     padding: 20px 26px;
     text-decoration: none;
-    transition-property:border-bottom-left-radius,border-bottom-left-radius,background-color,text-shadow,box-shadow,padding-right,padding-left;
-    transition-duration:.8s;
+    transition-property:background-color,text-shadow,box-shadow,padding-right,padding-left,border-left;
+    transition-duration:.6s;
     transition-timing-function:ease-out;
   }
   
   ul.topnav li a:hover:not(.active) {
-    background-color: #111;
+    border-left: 3px solid white;
     background-color: rgb(17, 17, 17);
-    border-radius:15px;
+    
     box-shadow:inset 1px 1px 32px #000;
     text-shadow:none;
     padding-right: 30px;
@@ -206,6 +206,7 @@ css portfolio
     width: 70%;
     margin-top: 4%;
     margin-bottom: 4%;
+    padding-bottom: 3%;
 }
 .riga img {
     width:40%;
@@ -228,9 +229,12 @@ td.colR {
     text-align: left;
     margin-left: 10%;
 }
-
+.colL h3 {
+    text-align:left;
+    margin-left: 10%;
+}
 .colL a {
-    margin-top: 0;
+    margin-top: 5%;
 }
 
  hr {
