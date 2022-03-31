@@ -241,3 +241,57 @@ td.colR {
     border: solid;
 }
 /* css portfolio/.. */
+
+/*CSS tutorial*/
+.first {
+  float: left;
+  width: 600px;
+  height: 300px;
+  margin-left: 30%;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+  border-radius: 15px;
+  transition: transform 0.2s;
+}
+
+.firstlist {
+  list-style-type: circle;
+  margin-top: 0%;
+  margin-left: 1%;
+  padding: 3%;
+  width: 100%;
+  background-color: #c91a1a00;
+  position: relative;
+  height: 30%;
+  overflow: hidden;
+  font-weight: 500;
+  font-size: 18px;
+}
+.first:hover {
+  transform: scale(1.07);
+}
+.fil {
+  list-style-type: circle;
+}
+
+.tfirst {
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+  padding-left: 25px;
+}
+
+.pfirst {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.afirst {
+  float: left;
+  display: initial;
+}
