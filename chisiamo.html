@@ -13,23 +13,12 @@
 </head>
 
 <body>
-	<ul id="navbar" class="light">
+	<ul class="topnav">
 		<li><a href="index.html">Home</a></li>
 		<li><a href="tutorial.html">Tutorial</a></li>
 		<li><a href="portfolio.html">Portfolio</a></li>
 		<li><a class="active" href="chisiamo.html">Chi siamo</a></li>
 	</ul>
-	<div class="forms">
-		<form action="/action_page.php">
-			<label for="nome">Nome</label>
-			<input type="text" id="nome" name="nome" placeholder="Il tuo nome..">
-			<label for="email">Email</label>
-			<input type="text" id="email" name="email" placeholder="La tua email..">
-			<label for="oggetto">Oggetto</label>
-			<textarea id="oggetto" name="oggetto" placeholder="Scrivi qualcosa.." style="height:200px"></textarea>
-			<input type="submit" value="invia">
-		</form>
-	</div>
 
 	<div class="container">
 		<table >
@@ -65,6 +54,20 @@
 			</tr>
 		</table>
 	</div>
+	<footer>
+		Scrivi un'email
+		<div class="forms">
+			<form action="/action_page.php">
+				<label for="nome">Nome</label>
+				<input type="text" id="nome" name="nome" placeholder="Il tuo nome..">
+				<label for="email">Email</label>
+				<input type="text" id="email" name="email" placeholder="La tua email..">
+				<label for="oggetto">Oggetto</label>
+				<textarea id="oggetto" name="oggetto" placeholder="Scrivi qualcosa.." style="height:200px"></textarea>
+				<input type="submit" value="invia">
+			</form>
+		</div>
+	</footer>
 </body>
 
 </html>

@@ -8,7 +8,7 @@ body {
 Css container principale 
 */
 .container{
-    margin-left:25%;
+    margin-left:0%;
     padding:1px 16px;
     height:100%;
     text-align: center;
@@ -16,33 +16,33 @@ Css container principale
 /*
 CSS Menù laterale
 */
-ul {
+ul.topnav {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 25%;
-    background-color: #f1f1f1;
-    position: fixed;
-    height: 100%;
-    overflow: auto;
-    font-weight: bold;
-    font-size: 20px;
-}
-li a {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  ul.topnav li {float: left;}
+  
+  ul.topnav li a {
     display: block;
-    color: #000;
-    padding: 20px 16px;
+    color: white;
+    text-align: center;
+    padding: 20px 26px;
     text-decoration: none;
-}
-li a.active {
-    background-color: #004897;
-    color: white;
-}
-li a:hover:not(.active) {
-    background-color: #555;
-    color: white;
-}
-
+  }
+  
+  ul.topnav li a:hover:not(.active) {background-color: #111;}
+  
+  ul.topnav li a.active {background-color: #004CA0;}
+  
+  ul.topnav li.right {float: right;}
+  @media screen and (max-width: 1000px) {
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+  }
 /*
 Css Form Contatti
 */
@@ -70,11 +70,15 @@ input[type=submit]:hover {
 .forms {
     border-radius: 5px;
     background-color: #f2f2f2;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 25%;
+    margin-left: 50%;
+    width: 50%;
     text-align: center;
+}
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #333;
+    color: white;
 }
 
 /*
@@ -151,7 +155,7 @@ iframe{
    }
 }
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 1000px) {
     .prev, .next,.text {
        font-size: 11px
    }

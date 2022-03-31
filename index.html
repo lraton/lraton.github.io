@@ -15,36 +15,14 @@
 
 <body>
 
-	<a id="toggle" onclick="myFunction()" href="javascript:void(0);">
-	<i class="fa fa-bars fa-3x" aria-hidden="true"></i>
-	</a>
-	<div id="sidemenu" class="none">
-		<div>
-			<ul id="navbar" class="light">
-				<li><a class="active" href="index.html">Home</a></li>
-				<li><a href="tutorial.html">Tutorial</a></li>
-				<li><a href="portfolio.html">Portfolio</a></li>
-				<li><a href="chisiamo.html">Chi siamo</a></li>
-				<li><a id="darkmode" onclick="darkMode()"> DARK</a></li>
-			</ul>
-		</div>
+	<ul class="topnav">
+		<li><a class="active" href="index.html">Home</a></li>
+		<li><a href="tutorial.html">Tutorial</a></li>
+		<li><a href="portfolio.html">Portfolio</a></li>
+		<li><a href="chisiamo.html">Chi siamo</a></li>
+	</ul>
 
-		<div id="forms" class="">
-			<form action="/action_page.php">
-				<label for="nome">Nome</label>
-				<input type="text" id="nome" name="nome" placeholder="Il tuo nome..">
-				<label for="email">Email</label>
-				<input type="text" id="email" name="email" placeholder="La tua email..">
-				<label for="oggetto">Oggetto</label>
-				<textarea id="oggetto" name="oggetto" placeholder="Scrivi qualcosa.." style="height:200px"></textarea>
-				<input type="submit" value="invia">
-
-			</form>
-		</div>
-	</div>
-
-
-	<div id="container">
+	<div class="container">
 		
 		<div class="slideshow-container">
 			<div class="mySlides fade">
@@ -92,37 +70,6 @@
 				slides[slideIndex - 1].style.display = "block";
 				dots[slideIndex - 1].className += " active";
 			}
-
-			let c = 0;
-			function darkMode() {
-				c++;
-				let element = document.body;
-				let navbar = document.getElementById("navbar");
-				let forms = document.getElementById("forms");
-				element.classList.toggle("dark-mode");
-				if (c % 2 == 1) { navbar.className = "dark"; /*forms.className="dark";*/ }
-				if (c % 2 == 0) { navbar.className = "light"; /*forms.className="light";*/ }
-				if (c >= 2) c = 0;
-
-			}
-			let toggle = document.getElementById("toggle");
-			toggle.addEventListener("click", hide)
-			function myFunction() {
-				var x = document.getElementById("sidemenu");
-				
-				var container = document.getElementById("container");
-				if (x.style.display === "block") {
-					x.style.display = "none";
-					changeMargin("5%");
-				} else {
-					x.style.display = "block";
-					changeMargin("25%");
-				}
-			}
-			function changeMargin(n){
-				var container = document.getElementById("container");
-				container.style.marginLeft = n;
-			}
 		</script>
 
 		<h2>Calendario attività</h2>
@@ -130,6 +77,19 @@
 			src="https://calendar.google.com/calendar/embed?src=it.italian%23holiday%40group.v.calendar.google.com&ctz=Europe%2FRome"></iframe>
 
 	</div>
+	<footer>
+		Scrivi un'email
+		<div class="forms">
+			<form action="/action_page.php">
+				<label for="nome">Nome</label>
+				<input type="text" id="nome" name="nome" placeholder="Il tuo nome..">
+				<label for="email">Email</label>
+				<input type="text" id="email" name="email" placeholder="La tua email..">
+				<label for="oggetto">Oggetto</label>
+				<textarea id="oggetto" name="oggetto" placeholder="Scrivi qualcosa.." style="height:200px"></textarea>
+				<input type="submit" value="invia">
+			</form>
+		</div>
+	</footer>
 </body>
-
 </html>
