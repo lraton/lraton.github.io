@@ -135,7 +135,11 @@ iframe {
 /*
  Slideshow css 
 */
-
+.immagini-slideshow{
+  width: 900px;
+  height: 506px;
+  border-radius: 5%;
+}
 .mySlides {
   display: none;
   color: black;
