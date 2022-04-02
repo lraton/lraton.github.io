@@ -224,6 +224,8 @@ CSS avatar
 table {
   width: 80%;
   text-align: justify;
+  color: white;
+  font-weight: bolder;
 }
 .avatartable td {
   height: 150px;
@@ -231,7 +233,7 @@ table {
   left: 24%;
 }
 .title {
-  color: #ed1d24;
+  color: #ffffff;
 }
 /* 
 css portfolio
@@ -289,10 +291,10 @@ hr {
   height: 90%;
   margin-left: 15%;
   margin-top: 1.5%;
-  margin-bottom: 1.5%;
+  margin-bottom: 10%;
   background: rgb(63, 94, 251);
   background: radial-gradient(
-    circle,
+    linear,
     rgba(63, 94, 251, 1) 0%,
     rgba(252, 70, 107, 1) 100%
   );
@@ -304,38 +306,45 @@ hr {
   list-style-type: circle;
   margin-top: 0%;
   margin-left: 1%;
-  padding: 3%;
+  padding: 0%;
   width: 100%;
   background-color: #c91a1a00;
   position: relative;
   height: 30%;
   overflow: hidden;
   font-weight: 500;
-  font-size: 80%;
+  font-size: 70%;
 }
 .first:hover {
   transform: scale(1.07);
 }
 .fil {
-  list-style-type: circle;
+  list-style-type: disc;
+  position: relative;
 }
 
 .tfirst {
   color: rgb(0, 0, 0);
   font-size: 150%;
   font-weight: bolder;
-  padding-left: 25px;
+  padding-left: 0px;
+  margin-bottom: 2%;
 }
 
 .pfirst {
-  font-size: 90%;
-  padding-left: 25px;
-  padding-right: 25px;
+  margin-top: 0%;
+  margin-bottom: 2%;
+  font-size: 80%;
+  font-weight: bold;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
 .afirst {
-  float: left;
-  display: initial;
+  font-size: 80%;
+  font-weight: bold;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .container-grid {
