@@ -16,12 +16,14 @@
   </head>
 
   <body>
-    <ul class="topnav">
-      <li><a class="active" href="index.html">Home</a></li>
-      <li><a href="tutorial.html">Tutorial</a></li>
-      <li><a href="portfolio.html">Portfolio</a></li>
-      <li><a href="chisiamo.html">Chi siamo</a></li>
-    </ul>
+    <div class="topnav">
+      <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="tutorial.html">Tutorial</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="chisiamo.html">Chi siamo</a></li>
+      </ul>
+    </div>
 
     <div class="container">
       <div class="slideshow-container">
@@ -50,32 +52,7 @@
       <script>
         let slideIndex = 1;
         showSlides(slideIndex);
-
-        function currentSlide(n) {
-          showSlides((slideIndex = n));
-        }
-
-        function showSlides(n) {
-          let i;
-          let slides = document.getElementsByClassName("mySlides");
-          let dots = document.getElementsByClassName("dot");
-          if (n > slides.length) {
-            slideIndex = 1;
-          }
-          if (n < 1) {
-            slideIndex = slides.length;
-          }
-          for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-          }
-          for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-          }
-          slides[slideIndex - 1].style.display = "block";
-          dots[slideIndex - 1].className += " active";
-        }
       </script>
-
       <h2>Calendario attività</h2>
       <iframe
         src="https://calendar.google.com/calendar/embed?src=it.italian%23holiday%40group.v.calendar.google.com&ctz=Europe%2FRome"

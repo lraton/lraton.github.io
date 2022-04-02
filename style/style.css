@@ -30,51 +30,56 @@ Css container principale
 /*
 CSS Menù laterale
 */
-ul.topnav {
+.topnav {
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+.topnav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: rgb(255, 255, 255);
 }
 
-ul.topnav li {
+.topnav li {
   float: left;
 }
 
-ul.topnav li a {
+.topnav a {
   display: block;
-  color: white;
+  color: black;
+  font-weight: bold;
   text-align: center;
   padding: 20px 26px;
   text-decoration: none;
   transition-property: background-color, text-shadow, box-shadow, padding-right,
-    padding-left, border-left;
+    padding-left, border-left, color;
   transition-duration: 0.6s;
   transition-timing-function: ease-out;
 }
 
-ul.topnav li a:hover:not(.active) {
-  border-bottom: 3px solid white;
-  background-color: rgb(17, 17, 17);
-
-  box-shadow: inset 1px 1px 32px #000;
+.topnav li a:hover:not(.active) {
+  border-bottom: 4px solid #004ca0;
+  background-color: rgb(255, 255, 255);
+  /* box-shadow: inset 1px 1px 32px #000; */
   text-shadow: none;
   padding-right: 30px;
   padding-left: 30px;
-  padding-bottom: 17px;
+  padding-bottom: 16px;
 }
 
-ul.topnav li a.active {
+.topnav li a.active {
   background-color: #004ca0;
 }
 
-ul.topnav li.right {
+.topnav li.right {
   float: right;
 }
 @media screen and (max-width: 1000px) {
-  ul.topnav li.right,
-  ul.topnav li {
+  .topnav li.right,
+  .topnav li {
     float: none;
   }
 }
@@ -138,7 +143,7 @@ iframe {
 .immagini-slideshow {
   width: 900px;
   height: 506px;
-  border-radius: 5%;
+  /* border-radius: 5%; */
 }
 .mySlides {
   display: none;
@@ -146,6 +151,7 @@ iframe {
 }
 /* Slideshow forms */
 .slideshow-container {
+  z-index: 0;
   max-width: 1000px;
   position: relative;
   margin: auto;
@@ -240,8 +246,8 @@ CSS avatar
 css portfolio
 */
 .riga {
-  border: 5px solid #004897;
-  border-radius: 10px;
+  /* border: 5px solid #004897;
+  border-radius: 10px; */
   margin-left: auto;
   margin-right: auto;
   width: 70%;
@@ -249,12 +255,11 @@ css portfolio
   margin-bottom: 4%;
   padding-bottom: 3%;
 }
-.riga img {
-  width: 50%;
+.riga table {
+  margin-top: 4%;
 }
 td.colR {
-  width: 60%;
-  height: 70%;
+  width: 70%;
 }
 .colR img {
   width: 50%;
@@ -279,11 +284,20 @@ td.colR {
   margin-left: 10%;
 }
 
-hr {
+/* hr {
   border: solid;
-}
+} */
 /* css portfolio/.. */
-
+.frant {
+  width: 70%;
+  margin: auto;
+}
+.frant #img1 {
+  width: 50%;
+}
+.frant #img2 {
+  width:20%;
+}
 /*CSS tutorial*/
 .first {
   width: 70%;
