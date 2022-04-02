@@ -134,7 +134,7 @@ iframe {
 /*
  Slideshow css 
 */
-.immagini-slideshow{
+.immagini-slideshow {
   width: 900px;
   height: 506px;
   border-radius: 5%;
@@ -254,6 +254,8 @@ td.colR {
   height: 70%;
 }
 .colR img {
+  float: right;
+  margin-top: 10%;
   width: 60%;
   box-shadow: 0px 5px 10px 2px #0e8eab;
 }
@@ -273,6 +275,7 @@ td.colR {
 }
 .colL a {
   margin-top: 5%;
+  margin-left: 10%;
 }
 
 hr {
