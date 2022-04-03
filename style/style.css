@@ -40,30 +40,33 @@ CSS Menù laterale
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgb(255, 255, 255);
+  background-color: #333;
 }
 
 .topnav li {
   float: left;
+  margin: 0;
+  display:inline;
+  list-style-type:none;
 }
 
 .topnav a {
   display: block;
-  color: black;
+  color: rgb(255, 255, 255);
   font-weight: bold;
   text-align: center;
   padding: 20px 26px;
   text-decoration: none;
   transition-property: background-color, text-shadow, box-shadow, padding-right,
-    padding-left, border-left, color;
+    padding-left, border-left;
   transition-duration: 0.6s;
   transition-timing-function: ease-out;
 }
 
 .topnav li a:hover:not(.active) {
   border-bottom: 4px solid #004ca0;
-  background-color: rgb(255, 255, 255);
-  /* box-shadow: inset 1px 1px 32px #000; */
+  background-color: rgb(0, 0, 0);
+  box-shadow: inset 1px 1px 32px #000;
   text-shadow: none;
   padding-right: 30px;
   padding-left: 30px;
@@ -74,9 +77,6 @@ CSS Menù laterale
   background-color: #004ca0;
 }
 
-.topnav li.right {
-  float: right;
-}
 @media screen and (max-width: 1000px) {
   .topnav li.right,
   .topnav li {
@@ -229,15 +229,14 @@ CSS avatar
   transform: scale(1.1);
 }
 .avatartable {
-  width: 80%;
-  text-align: justify;
+  position: relative;
+  margin: auto;
+  width: 90%;
   color: white;
   font-weight: bolder;
 }
 .avatartable td {
-  height: 150px;
-  position: relative;
-  left: 24%;
+  height: 200px;
 }
 .title {
   color: #ffffff;
@@ -298,6 +297,7 @@ td.colR {
 .frant #img2 {
   width:20%;
 }
+
 /*CSS tutorial*/
 .first {
   width: 70%;
