@@ -49,6 +49,12 @@ CSS Menù laterale
   display: inline;
   list-style-type: none;
 }
+.topnavimg {
+  margin: 2px;
+  float: right;
+  height: 55px;
+  width: 55px;
+}
 
 .topnav a {
   display: block;
@@ -83,13 +89,6 @@ CSS Menù laterale
   .topnav li {
     float: none;
   }
-}
-
-.topnavimg {
-  margin: 2px;
-  float: right;
-  height: 55px;
-  width: 55px;
 }
 /*
 Css Form Contatti
@@ -147,6 +146,8 @@ iframe {
   width: 107%;
   height: 103%;
 }*/
+
+
 /*
  Slideshow css 
 */
@@ -287,7 +288,7 @@ td.colR {
 }
 .colL h2 {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 28px;
   margin-bottom: 0;
   text-align: left;
   margin-left: 10%;
@@ -308,6 +309,7 @@ td.colR {
 .frant {
   width: 70%;
   margin: auto;
+  margin-bottom: 5%;
 }
 .frant #img1 {
   width: 50%;
@@ -316,6 +318,18 @@ td.colR {
   width: 20%;
 }
 
+
+.appl {
+  width: 70%;
+  margin: auto;
+  margin-bottom: 5%;
+}
+.appl #img1 {
+  width: 50%;
+}
+.appl #img2 {
+  width: 20%;
+}
 /*CSS tutorial*/
 .first {
   width: 70%;
