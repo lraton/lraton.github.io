@@ -1,157 +1,132 @@
 <!DOCTYPE html>
 <html lang="it">
-  <head>
-    <meta charset="utf-8" />
-    <title>AppLab About</title>
-    <meta name="description" content="AppLab WebSite" />
-    <meta name="keywords" content="" />
-    <meta name="author" content="" />
-    <link rel="icon" type="image/x-icon" href="img/logo.ico" />
-    <link rel="stylesheet" href="style/style.css" />
-    <script src="script/script.js"></script>
-  </head>
 
-  <body>
-    <div class="topnav">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="tutorial.html">Tutorial</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a class="active" href="chisiamo.html">Chi siamo</a></li>
-        <img class="topnavimg" src="img/logo.png" alt="logo" />
-      </ul>
-    </div>
+<head>
+  <meta charset="utf-8" />
+  <title>AppLab About</title>
+  <meta name="description" content="AppLab WebSite" />
+  <meta name="keywords" content="" />
+  <meta name="author" content="" />
+  <link rel="icon" type="image/x-icon" href="img/logo.ico" />
+  <link rel="stylesheet" href="style/style.css" />
+  <script src="script/script.js"></script>
+</head>
 
-    <div class="container">
-      <table class="avatartable">
-        <tr>
-          <td></td>
-          <td>
-            <h1 class="title">Project Leader</h1>
-          </td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>
-            <img
-              class="avatar"
-              src="img/noi/stefano3.png"
-              alt="Avatar"
-            /><br /><br />Stefano Bistarelli
-          </td>
-          <td></td>
-          <td>
-            <img
-              class="avatar"
-              src="img/noi/santini.jpg"
-              alt="Avatar"
-            /><br /><br />Francesco Santini
-          </td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>
-            <h1 class="title">Project Staff</h1>
-          </td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>
-            <img
-              class="avatar"
-              src="img/noi/eduard.jpg"
-              alt="Avatar"
-            /><br /><br />Eduard Brahas
-          </td>
-          <td>
-            <img
-              class="avatar"
-              src="img/noi/notari.jpg"
-              alt="Avatar"
-            /><br /><br />Filippo Notari
-          </td>
-          <td>
-            <img
-              class="avatar"
-              src="img/noi/stefano3.png"
-              alt="Avatar"
-            /><br /><br />Leonardo Nicoletta
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <img
-              class="avatar"
-              src="img/noi/stefano3.png"
-              alt="Avatar"
-            /><br /><br />Iuri
-          </td>
-          <td>
-            <img
-              class="avatar"
-              src="img/noi/mariucci.jpg"
-              alt="Avatar"
-            /><br /><br />Edoardo Mariucci
-          </td>
-          <td>
-            <img
-              class="avatar"
-              src="img/noi/billi.jpg"
-              alt="Avatar"
-            /><br /><br />Leonardo Billi
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <img
-              class="avatar"
-              src="img/noi/stefano3.png"
-              alt="Avatar"
-            /><br /><br />Amedeo
-          </td>
-          <td>
-            <img
-              class="avatar"
-              src="img/noi/gio.jpg"
-              alt="Avatar"
-            /><br /><br />Giordano Burri
-          </td>
-          <td>
-            <img
-              class="avatar"
-              src="img/noi/stefano3.png"
-              alt="Avatar"
-            /><br /><br />Leonardo Chiari
-          </td>
-        </tr>
-      </table>
+<body>
+  <div class="topnav">
+    <a class="active" href="index.html">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn">
+        <a href="tutorial.html">Tutorial</a>
+      </button>
+      <div class="dropdown-content">
+        <a href="tutorial/capitolo6.html">JavaScript</a>
+        <a href="tutorial/capitolo5.html">HTML5 Programming</a>
+        <a href="tutorial/capitolo5_design.html">Web Design</a>
+        <a href="tutorial/capitolo3.html">Mobile Web</a>
+      </div>
     </div>
-    <footer>
-      <table class="tablefooter">
-        <tr>
-          <td class="footersinistra">
-            <h2>Contattaci</h2>
-            <p>Scrivici un'email</p>
-          </td>
-          <td>
-            <div class="forms">
-              <form action="/index.php">
-                <!--<label for="nome">Nome</label>-->
-                <input type="text" id="nome" name="nome" placeholder="Il tuo nome.." />
-                <!--<label for="email">Email</label>-->
-                <input type="text" id="email" name="email" placeholder="La tua email.." />
-                <!--<label for="oggetto">Oggetto</label>-->
-                <textarea id="oggetto" name="oggetto" placeholder="Scrivi qualcosa.." style="height: 200px"></textarea>
-                <input type="submit" value="invia" />
-              </form>
-            </div>
-          </td>
-          <!--<td class="footerdestra">
+    <div class="dropdown">
+      <button class="dropbtn">
+        <a href="portfolio.html">Portfolio</a>
+      </button>
+      <div class="dropdown-content">
+        <a href="port/applab.html">AppLab</a>
+        <a href="port/frantoio.html">Frantoio</a>
+        <a href="port/conarg.html">Conarg</a>
+      </div>
+    </div>
+    <a href="chisiamo.html">Chi siamo</a>
+    <img class="topnavimg" src="img/logo.png" alt="logo" />
+  </div>
+
+  <div class="container">
+    <table class="avatartable">
+      <tr>
+        <td></td>
+        <td>
+          <h1 class="title">Project Leader</h1>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <img class="avatar" src="img/noi/stefano3.png" alt="Avatar" /><br /><br />Stefano Bistarelli
+        </td>
+        <td></td>
+        <td>
+          <img class="avatar" src="img/noi/santini.jpg" alt="Avatar" /><br /><br />Francesco Santini
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>
+          <h1 class="title">Project Staff</h1>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <img class="avatar" src="img/noi/eduard.jpg" alt="Avatar" /><br /><br />Eduard Brahas
+        </td>
+        <td>
+          <img class="avatar" src="img/noi/notari.jpg" alt="Avatar" /><br /><br />Filippo Notari
+        </td>
+        <td>
+          <img class="avatar" src="img/noi/stefano3.png" alt="Avatar" /><br /><br />Leonardo Nicoletta
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img class="avatar" src="img/noi/stefano3.png" alt="Avatar" /><br /><br />Iuri
+        </td>
+        <td>
+          <img class="avatar" src="img/noi/mariucci.jpg" alt="Avatar" /><br /><br />Edoardo Mariucci
+        </td>
+        <td>
+          <img class="avatar" src="img/noi/billi.jpg" alt="Avatar" /><br /><br />Leonardo Billi
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img class="avatar" src="img/noi/stefano3.png" alt="Avatar" /><br /><br />Amedeo
+        </td>
+        <td>
+          <img class="avatar" src="img/noi/gio.jpg" alt="Avatar" /><br /><br />Giordano Burri
+        </td>
+        <td>
+          <img class="avatar" src="img/noi/stefano3.png" alt="Avatar" /><br /><br />Leonardo Chiari
+        </td>
+      </tr>
+    </table>
+  </div>
+  <footer>
+    <table class="tablefooter">
+      <tr>
+        <td class="footersinistra">
+          <h2>Contattaci</h2>
+          <p>Scrivici un'email</p>
+        </td>
+        <td>
+          <div class="forms">
+            <form action="/index.php">
+              <!--<label for="nome">Nome</label>-->
+              <input type="text" id="nome" name="nome" placeholder="Il tuo nome.." />
+              <!--<label for="email">Email</label>-->
+              <input type="text" id="email" name="email" placeholder="La tua email.." />
+              <!--<label for="oggetto">Oggetto</label>-->
+              <textarea id="oggetto" name="oggetto" placeholder="Scrivi qualcosa.." style="height: 200px"></textarea>
+              <input type="submit" value="invia" />
+            </form>
+          </div>
+        </td>
+        <!--<td class="footerdestra">
             <iframe
               src="https://calendar.google.com/calendar/embed?src=it.italian%23holiday%40group.v.calendar.google.com&ctz=Europe%2FRome"></iframe>
           </td>-->
-        </tr>
-      </table>
-    </footer>
-  </body>
+      </tr>
+    </table>
+  </footer>
+</body>
+
 </html>

@@ -30,31 +30,38 @@ Css container principale
 /*
 CSS Menù laterale
 */
-.topnav {
-  position: sticky;
-  top: 0;
-  z-index: 9999;
+button{
+  font-family: "Roboto", sans-serif;
 }
-.topnav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+.topnav {
   overflow: hidden;
   background-color: #333;
 }
-
-.topnav li {
+.topnav a {
   float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  background-color: inherit;
+  font-family: inherit;
   margin: 0;
-  display: inline;
-  list-style-type: none;
+  padding:0;
 }
-.topnavimg {
-  margin: 2px;
-  float: right;
-  height: 55px;
-  width: 55px;
-}
+
 
 .topnav a {
   display: block;
@@ -69,7 +76,7 @@ CSS Menù laterale
   transition-timing-function: ease-out;
 }
 
-.topnav li a:hover:not(.active) {
+.topnav a:hover:not(.active) {
   border-bottom: 4px solid #004ca0;
   background-color: rgb(0, 0, 0);
   box-shadow: inset 1px 1px 32px #000;
@@ -79,9 +86,49 @@ CSS Menù laterale
   padding-bottom: 16px;
 }
 
-.topnav li a.active {
+.topnav a.active {
   background-color: #004ca0;
 }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content:hover a:hover:not(.active){
+  background-color: white;
+  transition-property: background-color, text-shadow, box-shadow, padding-right,
+  padding-left, border-left;
+transition-duration: 0.6s;
+transition-timing-function: ease-out;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.topnavimg {
+  margin: 2px;
+  float: right;
+  height: 55px;
+  width: 55px;
+}
+
 
 @media screen and (max-width: 1000px) {
   .topnav li.right,

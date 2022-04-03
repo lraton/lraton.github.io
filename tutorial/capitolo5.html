@@ -15,13 +15,30 @@
 
 <body>
   <div class="topnav">
-    <ul>
-      <li><a href="../index.html">Home</a></li>
-      <li><a class="active" href="../tutorial.html">Tutorial</a></li>
-      <li><a href="../portfolio.html">Portfolio</a></li>
-      <li><a href="../chisiamo.html">Chi siamo</a></li>
-      <img class="topnavimg" src="../img/logo.png" alt="logo" />
-    </ul>
+    <a class="active" href="index.html">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn">
+        <a href="../tutorial.html">Tutorial</a>
+      </button>
+      <div class="dropdown-content">
+        <a href="../tutorial/capitolo6.html">JavaScript</a>
+        <a href="../tutorial/capitolo5.html">HTML5 Programming</a>
+        <a href="../tutorial/capitolo5_design.html">Web Design</a>
+        <a href="../tutorial/capitolo3.html">Mobile Web</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">
+        <a href="../portfolio.html">Portfolio</a>
+      </button>
+      <div class="dropdown-content">
+        <a href="../port/applab.html">AppLab</a>
+        <a href="../port/frantoio.html">Frantoio</a>
+        <a href="../port/conarg.html">Conarg</a>
+      </div>
+    </div>
+    <a href="../chisiamo.html">Chi siamo</a>
+    <img class="topnavimg" src="img/logo.png" alt="logo" />
   </div>
 
   <div class="container container-grid">
