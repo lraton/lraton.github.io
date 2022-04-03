@@ -11,7 +11,7 @@ Css container principale
   padding: 1px 16px;
   height: 100%;
   text-align: center;
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background: linear-gradient(-45deg, #57a7f9, #8e8cc3, #c7708b, #f75656);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
 }
@@ -46,8 +46,8 @@ CSS Menù laterale
 .topnav li {
   float: left;
   margin: 0;
-  display:inline;
-  list-style-type:none;
+  display: inline;
+  list-style-type: none;
 }
 
 .topnav a {
@@ -107,7 +107,7 @@ textarea {
   resize: vertical;
 }
 input[type="submit"] {
-  background-color: #ed1d24;
+  background-color: #f75656;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -115,7 +115,7 @@ input[type="submit"] {
   cursor: pointer;
 }
 input[type="submit"]:hover {
-  background-color: #a11419;
+  background-color: #ae3f3f;
 }
 .forms {
   border-radius: 5px;
@@ -323,11 +323,11 @@ td.colR {
   margin-left: 15%;
   margin-top: 3%;
   margin-bottom: 10%;
-  background: rgb(63, 94, 251);
-  background: radial-gradient(
-    linear,
-    rgba(63, 94, 251, 1) 0%,
-    rgba(252, 70, 107, 1) 100%
+  background: rgb(148, 201, 255);
+  background: linear-gradient(
+    322deg,
+    rgba(148, 201, 255, 1) 0%,
+    rgba(255, 133, 133, 1) 100%
   );
   border-radius: 15px;
   transition: transform 0.2s;
@@ -352,6 +352,7 @@ td.colR {
 .fil {
   list-style-type: disc;
   position: relative;
+  font-weight: bold;
 }
 
 .tfirst {
