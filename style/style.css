@@ -130,9 +130,9 @@ footer {
   background-color: #333;
   color: white;
 }
-
-.footersinistra {
-  padding-left: 10%;
+.tablefooter {
+  width: 80%;
+  margin-left: 10%;
 }
 
 /*
@@ -145,15 +145,15 @@ iframe {
   border: 0;
   width: 107%;
   height: 103%;
-}*/
-
+}
+*/
 
 /*
  Slideshow css 
 */
 .immagini-slideshow {
-  width: 100%;
-  height: 23%;
+  width: 900px;
+  height: 506px;
   border-radius: 5%;
 }
 .mySlides {
@@ -161,27 +161,16 @@ iframe {
   color: black;
 }
 
-.dots {
-  grid-area: 2;
-  position: relative;
-  margin: 0%;
-  width: 45%;
-}
-
 /* Slideshow forms */
 .slideshow-container {
-  grid-area: 1;
-  z-index: 0;
-  max-width: 100%;
+  max-width: 1000px;
   position: relative;
-  margin-top: 3%;
-  width: 77%;
-  height: 23%;
+  margin: auto;
 }
 
 /* Caption text */
 .text {
-  color: black;
+  color: #f2f2f2;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
@@ -189,14 +178,16 @@ iframe {
   width: 100%;
   text-align: center;
 }
+
 /* Number text (1/3 etc) */
 .numbertext {
-  color: black;
+  color: #f2f2f2;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
   top: 0;
 }
+
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
@@ -208,15 +199,18 @@ iframe {
   display: inline-block;
   transition: background-color 0.6s ease;
 }
+
 .active,
 .dot:hover {
   background-color: #717171;
 }
+
 /* Fading animation */
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
 }
+
 @keyframes fade {
   from {
     opacity: 0.4;
@@ -317,7 +311,6 @@ td.colR {
 .frant #img2 {
   width: 20%;
 }
-
 
 .appl {
   width: 70%;
