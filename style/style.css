@@ -79,9 +79,17 @@ CSS Menù laterale
 }
 @media screen and (max-width: 1000px) {
   .topnav li.right,
+  .topnavimg,
   .topnav li {
     float: none;
   }
+}
+
+.topnavimg {
+  margin: 2px;
+  float: right;
+  height: 55px;
+  width: 55px;
 }
 /*
 Css Form Contatti
