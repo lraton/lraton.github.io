@@ -108,7 +108,8 @@ button {
 }
 .dropdown-content:hover a:hover:not(.active) {
   border-bottom: 4px solid #004ca0;
-  background-color: rgb(255, 255, 255);
+  color:#FA171F;
+  background-color: #004ca0;
   box-shadow: inset 1px 1px 32px rgb(97, 97, 97);
   text-shadow: none;
   padding-right: 30px;
@@ -344,6 +345,30 @@ td.colR {
 .colL a {
   margin-top: 5%;
   margin-left: 10%;
+}
+/*CSS capitoli*/
+.table-cap{
+  height: 100px;
+  width: 100%;
+  text-align: left;
+}
+.button-slide{
+  background-color: #f44336;
+  color: white;
+  padding: 14px 50px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.button-esercizi{
+  background-color: #004C9F;
+  color: white;
+  padding: 14px 50px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
 
 /* hr {

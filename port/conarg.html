@@ -9,6 +9,7 @@
 	<meta name="author" content="" />
 	<link rel="icon" type="image/x-icon" href="img/logo.ico" />
 	<link rel="stylesheet" href="../style/style.css" />
+	<script src="https://kit.fontawesome.com/d7a0729c72.js" crossorigin="anonymous"></script>
 	<script src="script/script.js"></script>
 </head>
 
@@ -20,10 +21,11 @@
 				<a href="../tutorial.html">Tutorial</a>
 			</button>
 			<div class="dropdown-content">
-				<a href="../tutorial/capitolo6.html">JavaScript</a>
-				<a href="../tutorial/capitolo5.html">HTML5 Programming</a>
-				<a href="../tutorial/capitolo5_design.html">Web Design</a>
-				<a href="../tutorial/capitolo3.html">Mobile Web</a>
+				<a href="../tutorial/capitolo6.html" class="cbp-tm-icon-h5"><i class="fa-brands fa-js-square"></i>
+					JavaScript</a>
+				<a href="../tutorial/capitolo5.html"><i class="fa-brands fa-html5"></i> HTML5 Programming</a>
+				<a href="../tutorial/capitolo5_design.html"><i class="fa-brands fa-css3-alt"></i> Web Design</a>
+				<a href="../tutorial/capitolo3.html"><i class="fa-solid fa-mobile"></i> Mobile Web</a>
 			</div>
 		</div>
 		<div class="dropdown">
@@ -31,13 +33,13 @@
 				<a class="active" href="../portfolio.html">Portfolio</a>
 			</button>
 			<div class="dropdown-content">
-				<a href="../port/applab.html">AppLab</a>
-				<a href="../port/frantoio.html">Frantoio</a>
-				<a class="active" href="../port/conarg.html">Conarg</a>
+				<a href="applab.html">AppLab</a>
+				<a href="frantoio.html">Frantoio</a>
+				<a class="active" href="conarg.html">Conarg</a>
 			</div>
 		</div>
 		<a href="../chisiamo.html">Chi siamo</a>
-		<img class="topnavimg" src="img/logo.png" alt="logo" />
+		<img class="topnavimg" src="../img/logo.png" alt="logo" />
 	</div>
 
 	<div class="container">
@@ -53,29 +55,28 @@
 		</div>
 	</div>
 	<footer>
-		<table>
-			<tr>
-				<td class="footersinistra">
-					<h2>Contattaci</h2>
-					<p>Scrivici un'email</p>
-				</td>
-				<td class="footerdestra">
-					<div class="forms">
-						<form action="/action_page.php">
-							<!--<label for="nome">Nome</label>-->
-							<input type="text" id="nome" name="nome" placeholder="Il tuo nome.." />
-							<!--<label for="email">Email</label>-->
-							<input type="text" id="email" name="email" placeholder="La tua email.." />
-							<!--<label for="oggetto">Oggetto</label>-->
-							<textarea id="oggetto" name="oggetto" placeholder="Scrivi qualcosa.."
-								style="height: 200px"></textarea>
-							<input type="submit" value="invia" />
-						</form>
-					</div>
-				</td>
-			</tr>
+		<table class="tablefooter">
+		  <tr>
+			<td class="footersinistra">
+			  <h2>Contattaci</h2>
+			  <p>Scrivici un'email</p>
+			</td>
+			<td>
+			  <div class="forms">
+				<form action="/index.php">
+				  <!--<label for="nome">Nome</label>-->
+				  <input type="text" id="nome" name="nome" placeholder="Il tuo nome.." />
+				  <!--<label for="email">Email</label>-->
+				  <input type="text" id="email" name="email" placeholder="La tua email.." />
+				  <!--<label for="oggetto">Oggetto</label>-->
+				  <textarea id="oggetto" name="oggetto" placeholder="Scrivi qualcosa.." style="height: 200px"></textarea>
+				  <input type="submit" value="invia" />
+				</form>
+			  </div>
+			</td>
+		  </tr>
 		</table>
-	</footer>
+	  </footer>
 </body>
 
 </html>
