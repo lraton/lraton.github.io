@@ -1,0 +1,608 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Disorganizzazione</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css"> <!--Custom css-->
+  <script src="script.js"></script> <!--javascript-->
+</head>
+<body id="Pagina" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#Pagina"><span style="color: #4caf50">Web</span> Design</a>
+    </div>
+    <div class="collapse navbar-collapse" id="Navbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#progetto">Progetto</a></li>
+        <li><a href="#aspetto">Aspetto</a></li>
+        <li><a href="#tema">Tema</a></li>
+        <li><a href="#extra">Extra</a></li>
+        <li><a href="#crediti">Crediti</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="intro" class="container-fluid pari text-center">
+  <div class="row pari">
+    <div class="col pari">
+      <br>
+      <h1>Introduzione al <span>Web</span> Design</h1>
+      <h2><span>In questa pagina tratteremo i seguenti punti:</span></h2>
+      <h3>
+        <p><a title="Progetto" href="#progetto">Progettazione di un sito funzionale</a></p>
+        <p><a title="Aspetto" href="#aspetto">Accorgimenti grafici e stile</a></p>
+        <p><a title="Tema" href="#tema">Scelte cromatiche</a></p>
+        <p><a title="Extra" href="#extra">Terze parti</a></p>
+      </h3>
+  <a href="#progetto" title="Inizio">
+    <div class="glyphicon glyphicon-chevron-down"></div>
+  </a>
+    </div>
+  </div>
+</div>
+
+<!-- Claudio Pannacci -->
+<div id="progetto" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-8">
+      <h2>Punto primo: il <span>TARGET</span></h2><br>
+      <h4>La cosa più importante durante tutta la creazione di un sito web è tenere a mente <span title="utente">chi</span> lo andrà ad usare.</h4><br>
+      <p><strong>RICORDA:</strong> l' <span>utente</span> è la ragione per cui il sito esiste in primo luogo, esso dovrebbe perciò essere più uno strumento che un' oggetto puramente estetico.<br>
+      Il design è importante, ma lo è ancora di più fornire un' <span>accesso rapido</span> ai contenuti tramite un sistema di navigazione <span>intuitivo</span>.
+      </p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-user logo"></span>
+    </div>
+  </div>
+  <div class="row text-center" style="margin-top: 30px">
+    <cite>
+    « Tutti gli uomini sono utenti<br>
+     Il web designer è un uomo<br>
+     Dunque il web designer è un utente »
+     </cite>
+  </div>
+</div>
+
+<div class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-screenshot logo slideanim"></span>
+    </div>
+    <div class="col-sm-8">
+      <h2>Punto secondo: l' <span>OBIETTIVO</span></h2><br>
+      <h4>Ogni sito ha bisogno di una <span>forma</span> che sia adatta al suo <span>scopo</span>.</h4><br>
+      <p>Tutte le decisioni riguardanti la <span>struttura</span> e la scelta dei <span>contenuti</span> della pagina devono essere fatte tenendo conto del suo <span>fine ultimo</span>.<br>
+      Per quanto un'idea possa sembrare buona in astratto, se non è <span>funzionale</span>, rischia di essere controproducente.</p>
+    </div>
+  </div>
+  <div class="row text-center" style="margin-top: 60px">
+    <cite>
+    « Non esiste vento favorevole per il marinaio che non sa dove andare »
+     </cite>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-8">
+      <h2>L' <span title="Information Architecture">IA</span> e la <span>NAVIGAZIONE</span></h2><br>
+      <h4>Prima di iniziare a scrivere il codice è fondametale definire l' <span>organizzazione dei contenuti</span> del sito web e come favorirne l' <span>accesso</span> da parte dell'utente.</h4><br>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-list logo slideanim"></span>
+    </div>
+  </div>
+  <div class="row">
+	<div class="col-sm-6">
+		<img class="img-responsive" src="images/sitemapdrawn.jpg"></img>
+	</div>
+	<div class="col-sm-6">
+    <br><h4>L' <span>Architettura  dell' Informazione</span>:</h4>
+		<p>Dopo aver scelto, sulla base dei due punti precedenti, gli elementi che andranno a comporre il sito, è necessario suddividerli in <span>categorie</span>, stabilendo come sono in <span>relazione</span> tra loro e disponendoli in  sessioni e sotosessioni secondo una <span>gerarchia</span>. </p>
+	</div>
+  </div>
+
+  <div class="row">
+	<div class="col-sm-6">
+    <br><h4>La <span>navigazione</span> del sito:</h4>
+		<p>Parte fondamentale dell <span>interfaccia utente</span>, è gestita dai vari <span>links</span> interni che devono seguire una <span>logica intuitiva</span> legata strettamente a quella dell' IA ma non necessariamente identica.
+    </p>
+	</div>
+	<div class="col-sm-6">
+	<img class="img-responsive" src="images/nav.jpg"></img>
+	</div>
+  </div>
+</div>
+
+<div class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-object-align-top logo slideanim"></span>
+    </div>
+    <div class="col-sm-8">
+      <h2>La <span>STRUTTURA</span> del sito</h2><br>
+      <h4>Ogni pagina è diversa ma tendenzialmente sono tutte composte da <span>elementi comuni</span>:</h4><br>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-3">
+      <br><h4>L'<span>header</span>:</h4>
+      <p>Contiene il <span>logo</span> e le informazioni principali legate al sito.</p><br>
+      <h4>La sessione dei <span>contenuti</span>:</h4>
+      <p>È la parte principale della pagina dove l'utente si aspetta di trovare quello che stava cercando.</p>
+    </div>    
+    <div class="col-sm-5">
+    <div calss="col-sm-6 slideanim">
+      <br><br><img src="images/sample.png" class="img-responsive">
+      </div>
+      <h4>Il <span>footer</span>:</h4>
+      <p>Riservato solitamente ai contatti, copyright e info sul sito.</p>
+    </div>    
+    <div class="col-sm-3">
+      <br><h4>La <span>navbar</span>:</h4>
+      <p>Presenta i <span>link principali</span> e per questo è importante che sia sempre accessibile durante tutta la visualizzazione.</p><br>
+      <p>A questi poi possono essere aggiunte <span>sidebar</span> e sessioni aggiuntive per disporre i contenuti qualitativamente diversi e <span>links aggiuntivi.</span>
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-6">
+      <h4>La realizzazione di un sito procede spesso in varie fasi, a partire da disegni e bozze fino ad arrivare al <span>wireframe</span> ed ad eventuali prototipi.</h4>
+      <p>Il <span>wireframe</span> consiste in una prima <span>bozza statica</span> del sito ancora privo degli elementi interattivi, deve mostrare precisamente tutto ciò che andrà a comporre la pagina. Esso è importante per ricevere un <span>feedback</span> sul lavoro compiuto, prima di procedere ad una realizzazione più dettagliata.<br>
+      </p>
+      <br><br><h4>Dopo aver chiarito come impostare il sito dal punto di vista <span>funzionale</span> si deve passare allo studio del <span>design</span> vero e proprio, in quanto un buon sito nasce dal <span>compromesso</span> tra funzione ed estetica.
+    </div>
+    <div class="col-sm-6 slideanim">
+      <img src="images/wireframe2.jpg" class="img-responsive">
+    </div>
+  </div>
+</div>
+
+<!-- Giorgio Mazza -->
+<div id="aspetto" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-4">
+      <span class="dispari glyphicon glyphicon-user logo slideanim"></span>
+    </div>
+    <div class="col-sm-8">
+      <h2>Il rapporto tra <span>UTENTE</span> e design</h2><br>
+      <h4>Il web desinger deve gestire il <span>design</span> in modo logico e studiare come l'utente andrà ad <span>interagire con esso</span>.</h4><br>
+      <p>L'<span>utente medio</span> aprendo un sito, se non trova ciò che cerca in modo immediato<br> 
+      tenderà a chiuderlo e a proseguire sul proprio motore di ricerca.<br>
+      Quindi è importante l'impatto visivo che ha il nostro sito sull'utente (specie nei <span>primi secondi</span>), <br>
+      e di conseguenza il tempo che impiega a trovare ciò che vuole all'interno di esso.</p>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-8">
+      <h2>Le aree di <span>FOCUS</span></h2>
+      <div class="col-sm-6">
+        <img src="images/f1.jpg" class="img-responsive">
+      </div>
+      <div class="col-sm-6">
+       <p><br>L'occhio umano focalizza l'attenzione <span>in modo istintivo</span> su determinate parti della pagina.<br>
+        E' quindi importante saper <span>gestire e sfruttare queste aree</span> all'interno delle quali si concentra il focus dell'utente.</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <span class="dispari glyphicon glyphicon-screenshot logo slideanim"></span>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+  <div class="col-sm-5 slideanim">
+      <img src="images/f.jpg" class="img-responsive">
+  </div>
+    <div class="col-sm-7">
+      <h4>L'<span>F-layout</span></h4><br>
+      <ul><li>Il focus dell'utente inizia dalla parte <span>in alto a sinistra</span></li>
+      <li>Poi si sposta per tutta la <span>larghezza</span></li>
+      <li>Infine l'attenzione è catturata da <span>immagini</span>, mentre il testo viene solo <span>“scansionato”</span></li></ul>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+  <div class="col-sm-5 slideanim">
+      <img src="images/z.jpg" class="img-responsive">
+  </div>
+    <div class="col-sm-7">
+      <h4>Lo <span>Z-layout</span></h4><br>
+      <ul><li>Comportamento simile all'F-layout, ma di maggior impatto</li>
+      <li>Utile come <span>prima pagina</span> specie se si utilizza un elemento (<span>immagine, slideshow</span>) per risaltare i concetti importanti.</li>
+      <li>Permette di farsi subito un idea del sito/prodotto grazie all'ampio header/slider</li></ul>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-4">
+      <h4>Il <span>Golden ratio</span></h4><br>
+      <p>
+        Il layout viene creato seguendo la <span>sezione aurea</span>, partendo dal rapporto tra corpo e sidebar e proporzionando gli elementi ad un rapporto di 1,6 circa;<br>
+        Ciò è anche possibile seguendo la <span>sequenza di fibonacci</span> (1, 1, 2, 3, 5, 8…).
+      </p>
+    </div>
+    <div class="col-sm-8 slideanim">
+      <img src="images/fibonaccigold.jpg" class="img-responsive">
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-6">
+      <h4>La <span>Regola dei terzi</span></h4><br>
+      <p>
+       Si costruisce un reticolo composto da due linee verticali e due linee orizzontali (<span>linee di forza</span>), le quali intersezioni creano i <span>punti di forza</span>.<br>
+       Questi sono i punti in cui l'<span>occhio si concentra maggiormente</span> e dai quali raccoglie maggiore informazione.
+      </p>
+    </div>
+    <div class="col-sm-6 slideanim">
+      <img src="images/RULETHIRDS.jpg" class="img-responsive">
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-5">
+      <span class="dispari glyphicon glyphicon-list logo slideanim"></span>
+    </div>
+    <div class="col-sm-7">
+      <h2>Organizzazione del <span>TESTO</span></h2><br>
+      <h4>Impaginare il testo in modo da rendere <span>scorrevole</span> ed <span>efficente</span> la lettura.</h4><br>
+      <p>E' buona norma scrivere <span>testi sintetici</span>, inserire le <span>informazioni chiave</span> nel <span>primo paragrafo</span> e sviluppare il testo <span>in generale</span> per poi approfondire i vari punti.</p>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-8">
+      <h4>Paragrafi e Formattazione</h4>
+      <p>Suddivisione del testo in <span>paragrafi</span>;<br>È importante anche saper gestire la <span>formattazione</span>, come grassetti, corsivi, rientri ed elenchi che aiutano il lettore a trovare immediatamente  <span>le parole chiave</span>.</p><br><br>
+      <h4>Scelta di un <span>Font</span> leggibile e coerente</h4>
+      <p>La <span>leggibilità</span> viene prima di tutto.<br>Il font deve essere <span>adatto</span> al <span>contesto</span>.<br>Attenzione al <span>kerning</span> (<span>spaziature sgradevoli</span> tra le varie lettere e/o parole)</p>
+    </div>
+    <div class="col-sm-4 slideanim">
+      <img src="images/typography.jpg" class="img-responsive">
+    </div>
+  </div> 
+</div>
+
+<div class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-7">
+      <h2><span>DESIGN</span> complessivo</h2><br>
+      <h4>Consigli per ottenere un design <span>efficace ed efficente</h4><br>
+      <p><span>Importante</span>: <br>Spesso si cerca <span>ispirazione</span> su altri siti web, ed è anche buona norma ispirarsi agli <span>ultimi trend</span>, ma sarà necessario astrarre i concetti, adattandoli alle <span>proprie esigenze</span>.</p>
+    </div>
+    <div class="col-sm-5">
+      <span class="dispari glyphicon glyphicon-object-align-top logo slideanim"></span>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-5">
+      <h4>Il <span>Minimalist design</span></h4>
+      <p>
+       Il flat design/material design<br>combina <span>colori luminosi</span> e controllo di <span>profondità</span> ad un design estremamente <span>pulito</span> che porta l'utente a focalizzarsi unicamente sul <span>contenuto</span> del sito, senza troppe distrazioni.
+      </p>
+    </div>
+    <div class="col-sm-7 slideanim">
+      <img src="images/minimalist1.jpg" class="img-responsive">
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-7 slideanim">
+      <div id="Slider" class="carousel slide text-center img-responsive" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#Slider" data-slide-to="0" class="active"></li>
+          <li data-target="#Slider" data-slide-to="1"></li>
+          <li data-target="#Slider" data-slide-to="2"></li>
+          <li data-target="#Slider" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="images/minimalist4.jpg" class="img-responsive">
+          </div>
+          <div class="item ">
+             <img src="images/minimalist1_5.jpg" class="img-responsive">
+          </div>
+          <div class="item ">
+             <img src="images/minimalist2.jpg" class="img-responsive">
+          </div>
+          <div class="item ">
+             <img src="images/minimalist5.jpg" class="img-responsive">
+          </div>
+        </div>
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#Slider" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#Slider" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    <div class="col-sm-5">
+      <h4>Altre <span>tendenze</span></h4><br>
+      <p><ul>
+        <li>"Menu ad hamburger" (comprimendo la navbar in un'unica icona espandibile al click)</li>
+         <li>”Long scroll design” (posizionando un'immagine ad effetto in primo piano)</li>
+         <li>”Card layout” (l'uso di più cards contenenti un immagine ed un sottotitolo, riadattabili in diversi layout)</li>
+       </ul></p>
+    </div>
+   </div>
+  </div>
+</div>
+
+<!-- Andrea Ceccagnoli -->
+<div id="tema" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-8">
+      <h2>La <span>TEORIA DEI COLORI</span></h2><br>
+      <h4>Studia l'interazione dei colori in un design attraverso <span>complementazione</span>, <span>contrasto</span> e <span>vivacità</span>.</h4><br>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-adjust logo slideanim"></span>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-8">
+      <h4>La <span>complementazione</span> si ha quando due colori occupano due parti opposte dello spettro.</h4><br>
+	  <p>Questo crea un buon <span>equilibrio</span> invece di concentrare l'attenzione su un'area particolare.</p>
+	  <p>Ci sono due tipi di complementazione comunemente usati: lo schema <span>triadico</span> e lo schema <span>composto</span></p>
+    </div>
+	<div class="col-sm-4">
+	<img class="img-responsive" src="images/compl.jpg"></img>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+	<div class="row">
+	<div class="col-sm-12 text-center">
+    <h4>Il <span>contrasto</span> riduce l'affaticamento degli occhi e <span>concentra</span> l'attenzione dell'utente dividendo chiaramente gli elementi di una pagina.</h4><br>
+	  <p>L'esempio più apparente di contrasto si ha con una selezione di colori di background e testo.</p>
+	</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-4">
+		  <h2><strong>Scegliendo colori complementari, il testo risulta facilmente leggibile.</strong></h2>
+		</div>
+		<div class="col-sm-4 pari">
+		  <h2 style="color: #5fdb64"><strong>La mancanza di contrasto affatica incredibilmente la vista dell'utente talvolta rendendo il testo illeggibie.</strong></h2>
+		</div>
+		<div class="col-sm-4">
+		  <h2 style="color: #80de84"><strong>Bisogna anche evitare colori di sfondo troppo luminosi rispetto alla scritta.</strong></h2>
+		</div>
+    </div>
+
+	<div class="row">
+	<div class="col-sm-12" style="background-color: #555; color: #fff">
+      <h2>Il contrasto può anche attirare l’attenzione dell’utente su uno specifico elemento di una pagina, facendo sembrare diversa l’area circostante.</h2>
+	</div>
+
+	</div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-8">
+      <h4>La<span> vivacità</span> determina le emozioni trasmesse dal design.</h4><br>
+	  <p>Colori più <span>luminosi</span> trasmettono più <span>energia</span> all'utente e sono un'ottima scelta quando si deve far pubblicità ad un prodotto o provocare una <span>reazione</span> emotiva.</p>
+	  <p>Colori più scuri <span>rilassano</span> l'utente, permettendogli di concentrarsi su altre cose.</p>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-tint logo slideanim"></span>
+    </div>
+    <div class="col-sm-8">
+      <h2>Scegliere un <span>PALETTE</span></h2><br>
+      <h4>Le strutture più comuni per un buon palette sono lo <span>schema triadico</span>, lo <span>schema composto</span> e lo <span>schema analogo</span>.</h4><br>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-8">
+      <h4>Uno <span>schema triadico</span> è composto da tre colori collocati in parti <span>opposte</span> dello spettro.</h4><br>
+	  <p>Questo assicura che i colori abbiano tutti la <span>stessa vivacità</span> e si <span>complementino</span> propriamente.</p>
+	</div>
+	<div class="col-sm-4">
+		<img class="img-responsive" src="images/triadic.jpg"></img>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid bg-grey">
+  <div class="row">
+  	<div class="col-sm-4">
+	<img class="img-responsive" src="images/compound.jpg"></img>
+    </div>
+    <div class="col-sm-8">
+      <h4>Uno <span>schema composto</span> si basa nello scegliere due colori da parti <span>opposte</span> dello spettro.</h4><br>
+	  <p>Così facendo il designer è più libero nella scelta di colori del design mantenendo tutti i benefici dei colori complementari.</p>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-8">
+      <h4>Uno <span>schema analogo</span> si basa sull'attenta selezione di colori nella <span>stessa</span> area dello spettro</h4><br>
+	  <p>Di solito i colori si differenziano nella loro <span>vivacità</span> e nel <span>contrasto</span> che hanno tra di loro.</p>
+	</div>
+	<div class="col-sm-4">
+	<img class="img-responsive" src="images/analogous.jpg"></img>
+    </div>
+  </div>
+</div>
+
+<!-- Claudio Candelori -->
+<div id="extra" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-8">
+      <h2>Cosa sono i <span>WIDGETS</span></h2><br>
+      <h4>Sono piccole applicazioni che implementano <span>funzionalita'</span> aggiuntive e possono essere usate dall'utente direttamente nel sito.
+      In genere hanno una funzione ausiliaria, occupano una porzione ridotta della pagina web e fanno riferimento a <span>siti esterni</span> piu' grandi.</h4><br>
+    </div>
+    <div class="col-sm-4">
+      <span class="dispari glyphicon glyphicon-link logo slideanim"></span>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-4">
+      <img src="images/gadgets.jpg" class="img-responsive">
+    </div>
+    <div class="col-sm-8">
+      <h4>Semplicità</h4>
+      <p> Di questi tempi non occorre essere programmatori esperti per implementare nelle proprie pagine i widget di altri siti.
+      Occorre essere un poco piu' esperti solo nel caso che si voglia creare un widget personale, o modificarne uno preesistente.
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-8">
+      <h4>Social Network</h4>
+      <p>Se si ha un sito in genere si cerca di far si che venga visto e seguito da piu' persone. Proprio per questo ogni grande azienda ha anche una controparte su molti social network.
+      Usare dei pulsanti che collegano direttamente agli altri siti e' uno strumento usato molto frequentemente.
+      </p>
+    </div>
+    <div class="col-sm-4">
+      <img src="images/social.png" class="img-responsive">
+    </div>
+  </div>
+</div>
+
+<div id="googleMap" style="height:400px;width:100%;"></div>
+
+<!-- Google Maps -->
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+<script>
+var myCenter = new google.maps.LatLng(43.1159395,12.3850318,21);
+
+function initialize() {
+var mapProp = {
+  center:myCenter,
+  zoom:17,
+  scrollwheel:false,
+  draggable:false,
+  mapTypeId:google.maps.MapTypeId.SATELLITE
+  };
+
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+var marker = new google.maps.Marker({
+  position:myCenter,
+  });
+
+marker.setMap(map);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+
+<footer class="container-fluid text-center">
+  <a href="#progetto" title="Torna all' Inizio">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+</footer>
+
+<script>
+  $(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $("#intro a,.navbar a, footer a").on('click', function(event) {
+
+    // Prevent default anchor click behavior
+    event.preventDefault();
+
+    // Store hash
+    var hash = this.hash;
+
+    // Using jQuery's animate() method to add smooth page scroll
+    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 900, function(){
+   
+      // Add hash (#) to URL when done scrolling (default click behavior)
+      window.location.hash = hash;
+    });
+  });
+  
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
+</script>
+
+
+<div id="crediti" class="container-fluid bg-grey pari">
+  <div class="row text-center pari">
+    <h2 style="color: #555">Pagina scritta per <a href="http://applab.dmi.unipg.it">AppLab</a> da</h2>
+      <h3>
+        <p><a title="Extra" href="https://github.com/OneClaudio">Claudio Candelori</a></p>
+        <p><a title="Tema">Andrea Ceccagnoli</a></p>
+        <p><a title="Aspetto" href="https://github.com/Shizen39">Giorgio Mazza</a></p>
+        <p><a title="Progetto" href="https://github.com/Kappanneo">Claudio Pannacci</a></p>
+      </h3>
+  </div>
+</div>
+
+</body>
+</html>
