@@ -9,10 +9,10 @@ from the directory of the `Dockerfile`
 sudo docker builder build -t applab .
 `
 
-To expose the TCP port use
+To expose the TCP port and atach a volume use
 
 `
-sudo docker run --name applab-nginx -d -p 8080:80 "image-id"
+sudo docker run --name applab-nginx -d -p 8080:80 -v volname:/app image-id
 `
 
 To start the container 
