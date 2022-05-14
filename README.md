@@ -8,8 +8,18 @@ from the directory of the `Dockerfile`
 `
 sudo docker builder build -t applab .
 `
+To create a volume use
 
-To expose the TCP port and atach a volume use
+`
+docker volume create volname
+`
+and to remove it 
+
+`
+docker volume rm volname
+`
+
+To expose the TCP port and attach a volume use
 
 `
 sudo docker run --name applab-nginx -d -p 8080:80 -v volname:/app image-id
