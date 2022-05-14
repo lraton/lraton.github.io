@@ -8,11 +8,13 @@ from the directory of the `Dockerfile`
 `
 sudo docker builder build -t applab .
 `
+
 To create a volume use
 
 `
 docker volume create volname
 `
+
 and to remove it 
 
 `
