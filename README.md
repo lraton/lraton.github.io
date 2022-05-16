@@ -24,7 +24,7 @@ docker volume rm volname
 To expose the TCP port and attach a volume use
 
 `
-sudo docker run --name applab-nginx -d -p 8080:80 -v volname:/app image-id
+sudo docker run --name applab-nginx -d -p 80:80 -v volname:/usr/share/nginx/html image-id
 `
 
 To start the container 
@@ -32,8 +32,12 @@ To start the container
 `
 sudo docker start applab-nginx
 `
+To copy a the directory on the container use
 
-http://localhost:8080 or http://host-ip:8080 to connect from your browser
+`
+sudo docker cp path-of-the-folder applab-nginx:/usr/share/nginx/html
+`
+http://localhost:80 or http://host-ip:80 to connect from your browser
 
 To stop it 
 
