@@ -12,13 +12,13 @@ sudo docker builder build -t applab .
 To create a volume use
 
 `
-docker volume create volname
+sudo docker volume create volname
 `
 
 and to remove it 
 
 `
-docker volume rm volname
+sudo docker volume rm volname
 `
 
 To expose the TCP port and attach a volume use
